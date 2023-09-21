@@ -11,3 +11,46 @@ body{
 header{
     background-color: #773775;
 }
+body{
+    background-image: url("2.png");
+    background-position: top right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-color:#decdf3;
+}
+header{
+    background-color: #773775;
+}
+button{
+    width: 100px;
+    height: 30px;
+}
+h1,h2,h3{
+    color: #773775;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ol ol{
+    list-style-type: lower-roman;
+}
+ul{
+    list-style-type:square;
+}
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color:red;
+}
+a:hover{
+    text-decoration: underline;
+    color:green;
+}
+a:active{
+    color:black;
+    text-decoration: underline;
+}
