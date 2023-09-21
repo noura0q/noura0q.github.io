@@ -1,0 +1,56 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.CSS">
+  <title> Sheet 3</title>
+</head>
+<div class=""
+<body>
+
+
+    <h1> CV FORM</h1>
+    <form>
+        <fieldset>
+            <legend> Personal Information</legend>
+        <label for="Name">Name: </label>  <br>
+        <input type="text" ><br> <br>
+        <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="male" value="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female" value="female" checked>
+    <label for="female">Female</label> <br><br>
+  <label for="phone">Enter a phone number:</label> <br><br>
+  <input type="tel" id="phone" name="phone" placeholder="555-55-555" pattern=" [0-9]{3}-
+  [0-9]{2}-[0-9]{3}" required> <small>Format: 555-55-555</small><br><br>
+  <label>Your linkedin page:</label> 
+  <input type="url" name="Link" >
+  <label for="email">Email:</label>
+  <input type="email" name="email"><br>
+</fieldset>
+<br>
+<label for="experience">Years of experise (between 3 and 10):</label>
+<input type="number" max="10" min="3"/>
+<p><label for="salary"> expected salary:</label>
+4000 <input type="range" min="4000" max="10000" value="7000" steps="1">10000</p>
+<label for="language">language:</label> <br>
+<input type="checkbox" id="Arabic" name="language" value="Arabic">
+<label for="Arabic">Arabic</label><br>
+<input type="checkbox" id="English" name="language" value="English">
+<label for="English">English</label> <br><br>
+<label>Uplaud your CV:</label>
+<input type="file" id="choose file" name="choose file"><br><br>
+<label for="week">The nearest week you can start work</label>
+<input id="week" type="week"><br><br>
+<label for="month">The nearest month you can start work</label>
+<input id="month" type="month"><br><br>
+<label for="time">the best time to work</label>
+<input id="time" type="time"><br><br>
+<label for="major">Majors </label>
+<input type="text" > <br><br>
+<label>why you want to work with us</label><br>
+<textarea id="work" name="work" rows="4" cols="130"></textarea><br><br>
+
+<button type="submit">send</button>
+<button type="reset" >reset</button>
+</form>
+</body>
+</html>

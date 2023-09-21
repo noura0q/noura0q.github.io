@@ -6,8 +6,45 @@
 
 }
 body{
-    background-image: linear-gradient(to right top, #d1b9e3, #d5c0e8, #dac6ee, #decdf3, #e3d4f8, #e6d5fa, #e8d7fc, #ebd8fe, #ecd5fd, #eed1fb, #efcef9, #f1caf7);
+    background-image: url("2.png");
+    background-position: top right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-color:#decdf3;
 }
 header{
     background-color: #773775;
+}
+button{
+    width: 100px;
+    height: 30px;
+}
+h1,h2,h3{
+    color: #773775;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ol ol{
+    list-style-type: lower-roman;
+}
+ul{
+    list-style-type:square;
+}
+a:link{
+    text-decoration: none;
+    color: blue;
+}
+a:visited{
+    text-decoration: none;
+    color:red;
+}
+a:hover{
+    text-decoration: underline;
+    color:green;
+}
+a:active{
+    color:black;
+    text-decoration: underline;
 }
