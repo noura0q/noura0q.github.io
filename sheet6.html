@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript examples</title>
+<meta charset="utf-8">
+<script>
+    function add(){
+     var number1 = parseInt(document.getElementById('n1').value);
+     var number2 = parseInt(document.getElementById('n2').value);
+     var result=number1+number2;
+    document.getElementById('re').innerHTML=result;
+    }
+
+    function sub(){
+      var number1 = parseInt(document.getElementById('n1').value);
+     var number2 = parseInt(document.getElementById('n2').value);
+
+    var result=number1-number2;
+    document.getElementById('re').innerHTML=result;
+    }
+
+    function multiply(){
+      var number1 = parseInt(document.getElementById('n1').value);
+     var number2 = parseInt(document.getElementById('n2').value);
+
+    var result=number1*number2;
+    document.getElementById('re').innerHTML=result;
+    }
+
+    function changeTextColor(){
+      document.getElementById("number1").style.color ="green";
+      document.getElementById("number2").style.color ="green";
+    }
+    function changeBackground(){
+    document.getElementById('n1').style.backgroundColor ="blue";
+    document.getElementById('n2').style.backgroundColor ="blue";
+     }
+     function turnOff(){
+    document.getElementById('m').src="IMG/turnOff.gif";
+     }
+     function turnOn(){
+    document.getElementById('m').src="IMG/turnOn.gif";
+     }
+
+    </script>
+</head>
+<body>
+    <h2 style="color:blue;">Calculate faster !</h2>
+    <form>
+         <label for="n1" id="number1">number 1: </label>
+         <input type=number id="n1"><br><br>
+         <label for="n2" id="number2">number 2: </label>
+         <input type=number id="n2"> <br><br>
+         <input type=button  onclick="add();" value="add" >
+         <input type="button" onclick="sub();" value="sub">
+         <input type=button onclick="multiply();" value="multiply" >
+      <input type=button onclick="changeBackground();" value="change background color">
+      <input type=button onclick="changeTextColor();" value="change text color">  
+      </form>  
+      <p id="re"></p>
+      <h2 style="color:rgb(230, 230, 15);">Try my light! </h2>
+      <button onclick="turnOff();">Turn off the light</button>
+      <img id="m" src="IMG/turnOff.gif">
+      <button onclick="turnOn();">Turn on the light</button>
+      </body>
+      </html>      
