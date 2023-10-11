@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.CSS">
+    <title>sheet8</title>
+    <meta charset="utf-8">
+    <script>
+    var Name;
+    var Hnow = new Date();    
+    var h= Hnow.getHours();
+    Name = window.prompt("please Enter your name") ;
+        if(h>12)
+        document.write("<h1>Good Morning ,  ");
+        if(h<=12){
+            h=h-12;
+        if(h<6)
+            document.write("<h1>Good Afternoon,  ");
+        }
+        document.writeln(Name + "</h1>");
+    </script>
+      </head>
+      </html>
